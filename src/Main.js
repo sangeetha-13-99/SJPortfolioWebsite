@@ -88,8 +88,8 @@ export default function Main() {
       name: ["Mark-10", "Cash Registor App"],
       description:
         "Cash register app is an app which provides the information of number denominations that would come back for the money you provided to pay the bill,do check it out.",
-      gitLink: "https://github.com/sangeetha-13-99/cash-register-app",
-      projectLink: "https://csb-dmw6ny.netlify.app/",
+      gitLink: "https://github.com/sangeetha-13-99/cash-register",
+      projectLink: "https://sj-cash-register-app.netlify.app/",
       techList: [
         ["#00FFFF", "React"],
         ["darkorange", "HTML"],
