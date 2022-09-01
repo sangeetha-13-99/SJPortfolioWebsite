@@ -26,8 +26,8 @@ export default function Main() {
       name: ["Mark-3, Mark-4, Mark-5", "Portfolio site"],
       description:
         "I have developed my portfolio using React,html,css. I made it responsive and easy for users to navigate the sections. Do check it out ",
-      gitLink: "#",
-      projectLink: "#",
+      gitLink: "https://github.com/sangeetha-13-99/SJPortfolioWebsite",
+      projectLink: "https://csb-1trkrs.netlify.app/",
       techList: [
         ["#00FFFF", "React"],
         ["darkorange", "HTML"],
