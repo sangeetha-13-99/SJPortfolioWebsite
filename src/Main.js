@@ -91,7 +91,7 @@ export default function Main() {
       gitLink: "https://github.com/sangeetha-13-99/cash-register",
       projectLink: "https://sj-cash-register-app.netlify.app/",
       techList: [
-        ["#00FFFF", "React"],
+        ["#F0DB4F", "javascript"],
         ["darkorange", "HTML"],
         ["#0000FF", "CSS"]
       ]
