@@ -281,11 +281,11 @@ export default function Main() {
                   href="https://github.com/sangeetha-13-99?tab=repositories"
                   className="links"
                 >
-                  <span className="link-icon"></span>
+                  <span className="link-icon" style={{backgroundImage: "url('../images/link-solid.svg')"}}></span>
                   GitHub
                 </a>
                 <button type="button" className="btn" onClick={clickHandler}>
-                  <span className="btn-link"></span>
+                  <span className="btn-link" style={{backgroundImage: "url('../images/button-link.svg')"}}></span>
                   projects
                 </button>
               </div>
@@ -297,7 +297,7 @@ export default function Main() {
               <p>check my blog section.which contains mini blogs.</p>
               <div>
                 <button type="button" className="btn" onClick={clickHandler}>
-                  <span className="btn-link"></span>
+                  <span className="btn-link" style={{backgroundImage: "url('../images/button-link.svg')"}}></span>
                   blogs
                 </button>
               </div>

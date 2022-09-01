@@ -9,11 +9,11 @@ export default function Projects(props){
       <p>{props.description}</p>
       <div>
         <a href={props.gitLink} target="_blank" className="link-button links">
-          <span className="link-icon"></span>
+          <span className="link-icon" style={{backgroundImage: "url('../images/link-solid.svg')"}}></span>
           GitHub
         </a>
         <a href={props.projectLink} target="_blank" className="btn links">
-        <span className="btn-link"></span>
+        <span className="btn-link" style={{backgroundImage: "url('../images/button-link.svg')"}}></span>
         project
         </a>
       </div>
