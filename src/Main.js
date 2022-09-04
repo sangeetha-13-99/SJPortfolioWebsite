@@ -149,29 +149,34 @@ export default function Main() {
   };
   let blogs = {
     "blog-1": {
-      name: ["Blog", "Javascript Architecture "],
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. I"
-    },
-    "blog-2": {
-      name: ["Blog", "Javascript Architecture "],
-      description: ""
+      name: ["Blog 1", "Dummy Blog 1 (Blog is in progress...)"],
+      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. I",
+      link:"#"
     }
   };
-  setTimeout(function () {
-    let firstNavList = document.querySelectorAll(".navbar-items");
-    firstNavList.forEach((element) => {
-      element.querySelector("li").classList.add("links");
-    });
+function setEvent(){
     let navList = document.querySelectorAll(".container .section");
+    window.dispatchEvent(new Event("scroll"),false);
     window.onscroll = function (e) {
+      if (window.innerWidth>=1200 ){
+        calcSectionTop(500);
+      }
+      else if(window.innerWidth>=600){
+        calcSectionTop(350);
+      }
+      else {
+        calcSectionTop(250);
+      } 
+    };
+    function calcSectionTop(value){
       navList.forEach((element) => {
         let navText = element.getAttribute("id");
         let sectionTop = element.offsetTop;
-        if (window.pageYOffset >= sectionTop - 500) {
+        if(window.pageYOffset >= sectionTop - value) {
           setLinksClass(navText);
         }
       });
-    };
+    }
     function setLinksClass(text) {
       document.querySelectorAll(".navbar-items li").forEach((ele) => {
         ele.classList.remove("links");
@@ -180,14 +185,24 @@ export default function Main() {
         }
       });
     }
-  }, 1000);
+};
+setTimeout(function(){
+  let firstNavList = document.querySelectorAll(".navbar-items");
+    firstNavList.forEach((element) => {
+    element.querySelector("li").classList.add("links");
+});
+  setEvent();
+},1000);
+window.addEventListener('resize',function(){
+  setTimeout(function(){
+  setEvent()},500);
+})
   function aboutclickHandler() {
     setSection("about");
   }
   function clickHandler(e) {
     let section = e.target.textContent;
     setSection(section);
-
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
@@ -234,7 +249,7 @@ export default function Main() {
               <p className="about-heading">
                 Hey 👋 , Iam <span className="about-name">Sangeetha</span>
               </p>
-              <p className="about-subheading">Iam a Ui developer</p>
+              <p className="about-subheading">Iam web developer</p>
             </div>
             <div className="about-image">
               <img
@@ -294,7 +309,7 @@ export default function Main() {
           <div id="blogs" className="cards section">
             <h2 className="cards-heading">Blogs</h2>
             <div className="cards-div">
-              <p>check my blog section.which contains mini blogs.</p>
+              <p>Here is my blog section.which contains small description of each blog and link to Hash node </p>
               <div>
                 <button type="button" className="btn" onClick={clickHandler}>
                   <span className="btn-link" style={{backgroundImage: "url('../images/button-link.svg')"}}></span>
@@ -344,6 +359,7 @@ export default function Main() {
               key={blog}
               name={blogs[blog].name}
               description={blogs[blog].description}
+              link={blogs[blog].link}
             />
           );
         })}

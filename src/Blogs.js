@@ -7,6 +7,10 @@ export default function Blogs(props) {
           <span>{props.name[1]}</span>
         </p>
         <p>{props.description}</p>
+        <a href={props.link} target="_blank" className="link-button links">
+          <span className="link-icon" style={{backgroundImage: "url('../images/link-solid.svg')"}}></span>
+          Read More
+        </a>
       </div>
     </div>
   );
