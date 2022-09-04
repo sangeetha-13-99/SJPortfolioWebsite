@@ -10,7 +10,7 @@ export default function Main() {
         "Do u Know me ? Is quiz App designed using javascript along with chalk library to make the UI look intresting, I have involved other two quizes too,And i made it fun and intresting don't miss the fun. Do check it out .",
       gitLink: "https://github.com/sangeetha-13-99/MARK-1-CLI-QUIZZ-APP",
       projectLink:
-        "https://replit.com/@sangeetha13/Mark-1-CLI-PROGRAM#index.js?embed=1&output=1",
+        "https://replit.com/@sangeetha13/Mark-1-CLI-PROGRAM?embed=1&output=1",
       techList: [["#F0DB4F", "Javascript"]]
     },
     "project-2": {
@@ -19,7 +19,7 @@ export default function Main() {
         "the Tricky Quizz App is a Quiz App made using javascript along with chalk library to make the UI look intresting,packages used are readline ,implemeted using createInterface method, its tricky 😵, Do check it out",
       gitLink: "https://github.com/sangeetha-13-99/MARK-2-CLI-QUIZZ-APP",
       projectLink:
-        "https://replit.com/@sangeetha13/Mark-2-CLI-PROGRAM#index.js?embed=1&output=1",
+        "https://replit.com/@sangeetha13/Mark-2-CLI-PROGRAM?embed=1&output=1",
       techList: [["#F0DB4F", "Javascript"]]
     },
     "project-3": {
