@@ -8,5 +8,5 @@ Hey 👋, This is my first portfolio websites where i showcased my projects and 
 a separate tab for projects is provided with live link of each project as well as github repository.also a separate tab for blogs where you can see the blogs i have written.
 i have given a cool UI to this site to make website intresting ,
 <div>
-  do check it out here is the live link provided : <a href="https://csb-1trkrs.netlify.app/">SJ Portfolio</a>
+  do check it out here is the live link provided : <a href="https://csb-b4r6fb.netlify.app/">SJ Portfolio</a>
 </div>
