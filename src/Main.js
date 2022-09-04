@@ -27,7 +27,7 @@ export default function Main() {
       description:
         "I have developed my portfolio using React,html,css. I made it responsive and easy for users to navigate the sections. Do check it out ",
       gitLink: "https://github.com/sangeetha-13-99/SJPortfolioWebsite",
-      projectLink: "https://sangeethajulaportfolio.netlify.app/",
+      projectLink: "https://csb-b4r6fb.netlify.app/",
       techList: [
         ["#00FFFF", "React"],
         ["darkorange", "HTML"],
@@ -64,7 +64,7 @@ export default function Main() {
         "Emoji Face Interpreter App is an app which interpretes the emoji's and gives an actual output of emoji face expression,used the mentioned technologies and do check it out this app 😊",
       gitLink:
         "https://github.com/sangeetha-13-99/mark-five-emoji-face-interpreter",
-      projectLink: "https://emoji-interpretersj.netlify.app/",
+      projectLink: "https://csb-yqjfci.netlify.app/",
       techList: [
         ["#00FFFF", "React"],
         ["darkorange", "HTML"],
@@ -77,7 +77,7 @@ export default function Main() {
         "Show-Recommendation-App is an app in which i provided a ratings for various shows and movies that liked, i provided a tabs for different genre and based on select the type of genre u can see my ratings,i used mentioned technologies. Do check it out its cool",
       gitLink:
         "https://github.com/sangeetha-13-99/Mark-Six-Show-Recommendation-App",
-      projectLink: "https://showrecommendationsj.netlify.app/",
+      projectLink: "https://csb-21q55e.netlify.app/",
       techList: [
         ["#00FFFF", "React"],
         ["darkorange", "HTML"],
@@ -102,7 +102,7 @@ export default function Main() {
         "Is Your BirthDay Lucky app is an fun based app to check whether your birthday is lucky or not(dont care 😉) by using some logic,do check out yours and your friends birthdays 😁( note: we dont store any dates) ",
       gitLink:
         "https://github.com/sangeetha-13-99/mark-11-is-your-birthday-lucky",
-      projectLink: "https://isyourbirthdayluckysj.netlify.app/",
+      projectLink: "https://csb-jlks9g.netlify.app/",
       techList: [
         ["#00FFFF", "React"],
         ["darkorange", "HTML"],
@@ -114,7 +114,7 @@ export default function Main() {
       description:
         "do u know triangles is fun based app on triangles, it is provided with different sections for having fun and for testing knowledge on  traingles, do checkout this cool app",
       gitLink: "https://github.com/sangeetha-13-99/mark-12-fun-with-triangles",
-      projectLink: "https://funwithtrianglessj.netlify.app/",
+      projectLink: "https://csb-nzi1qn.netlify.app/",
       techList: [
         ["#00FFFF", "React"],
         ["darkorange", "HTML"],
@@ -126,7 +126,7 @@ export default function Main() {
       description:
         "Palindrome BirthDay is an fun based app which calculates whether provided birthdate is palindrome or not if not a palindrome birthday then he/she ill be provided with message by how many days he missed the palindrome date, do check out the links",
       gitLink: "https://github.com/sangeetha-13-99/Mark-13-palindrome-birthday",
-      projectLink: "https://palindromebirthdaysj.netlify.app/",
+      projectLink: "https://csb-99d8n1.netlify.app/",
       techList: [
         ["#00FFFF", "React"],
         ["darkorange", "HTML"],
