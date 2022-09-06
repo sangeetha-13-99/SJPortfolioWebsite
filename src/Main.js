@@ -149,9 +149,10 @@ export default function Main() {
   };
   let blogs = {
     "blog-1": {
-      name: ["Blog 1", "Dummy Blog 1 (Blog is in progress...)"],
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. I",
-      link:"#"
+      name: ["Blog 1", "Hoisting in Javascript"],
+      description: "In This Blog I have covered up the concept of hoisting in javascript along with hoisting , as a prior knowledge i covered execution context concept which involves explanation of memory allocation and code execution. it is a 8 min read article do check it out, ",
+      link:"https://doawesome.hashnode.dev/hoisting-in-javascript",
+      published:'06-09-2022'
     }
   };
 function setEvent(){
@@ -360,6 +361,7 @@ window.addEventListener('resize',function(){
               name={blogs[blog].name}
               description={blogs[blog].description}
               link={blogs[blog].link}
+              published={blogs[blog].published}
             />
           );
         })}

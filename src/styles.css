@@ -314,3 +314,16 @@ margin:0 4px 0 8px;
 .align-footer{
   margin-left:0;
 }
+
+.blog-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+.blog-date{
+  background-color: rgba(255, 255, 255, 0.062);
+  font-family: 'Varela Round', sans-serif;
+  color: #f472b6;
+}
